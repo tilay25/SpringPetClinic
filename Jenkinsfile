@@ -1,5 +1,6 @@
 pipeline {
-  agent { label 'master' }
+  // agent { label 'master' }
+  agent { label 'ubuntu' }
   // tools { maven 'M3' }
   stages {
     stage('Checkout') {
